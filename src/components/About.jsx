@@ -1,12 +1,16 @@
 import React from "react";
 import Services from "./Services";
+import rulerPen from "../assets/icons/ruler-pen.png";
+import code from "../assets/icons/code.png";
+import android from "../assets/icons/android.png";
+import pythonSvg from "../assets/icons/python-svg.png";
 
 const About = () => {
   const skills = [
-    { name: "UI & UX DESIGNING", image: "/assets/icons/ruler-pen.png" },
-    { name: "WEB DEVELOPMENT", image: "/assets/icons/code.png" },
-    { name: "MOBILE DEVELOPMENT", image: "/assets/icons/android.png" },
-    { name: "LIBRARY MANAGEMENT", image: "/assets/icons/python-svg.png" },
+    { name: "UI & UX DESIGNING", image: rulerPen },
+    { name: "WEB DEVELOPMENT", image: code },
+    { name: "MOBILE DEVELOPMENT", image: android },
+    { name: "LIBRARY MANAGEMENT", image: pythonSvg },
   ];
 
   return (
